@@ -1,0 +1,38 @@
+#checkbox {
+    display: none;
+  }
+  
+  .switch {
+    display: flex;
+    justify-self: center;
+    position: relative;
+    width: fit-content;
+    padding: 10px 20px;
+    background-color: rgb(46, 46, 46);
+    border-radius: 50px;
+    z-index: 1;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    color: white;
+    font-size: 0.9em;
+    font-weight: 600;
+    transition: all 0.3s;
+  }
+  .switch svg path {
+    fill: transparent;
+  }
+  #checkbox:checked + .switch {
+    background-color: rgb(174, 0, 255);
+    box-shadow: 0px 0px 40px rgba(174, 0, 255, 0.438);
+  }
+  #deep{
+    margin-top: 70rem;
+    text-align:center ;
+  }
+  .bg{
+    width: 100%;
+    margin-top: -50px;
+  }
