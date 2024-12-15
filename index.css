@@ -1,6 +1,12 @@
 #checkbox {
     display: none;
   }
+  p {
+    width: 100%;
+
+    margin-top: -50px;
+    background-image: url('./assets/man-planet-river-5120x5120-15554.jpg');
+  }
   
   .switch {
     display: flex;
@@ -22,7 +28,7 @@
     transition: all 0.3s;
   }
   .switch svg path {
-    fill: transparent;
+    fill: white;
   }
   #checkbox:checked + .switch {
     background-color: rgb(174, 0, 255);
