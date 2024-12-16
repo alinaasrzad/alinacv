@@ -1,8 +1,7 @@
 body{
   background-attachment: fixed;
-  background-size: cover;
+ 
   scroll-behavior: smooth;
-
   background-image: url('./assets/man-planet-river-5120x5120-15554.jpg');
 }
 #checkbox {
@@ -13,8 +12,8 @@ body{
     margin-top: -50px;
     
   }
-  div img :hover{  
-    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  div img mous{  
+    z-index: index;
   }
 
   
