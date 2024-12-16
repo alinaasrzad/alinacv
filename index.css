@@ -1,7 +1,25 @@
-body{
+/* body{
   background-attachment: fixed;
   scroll-behavior: smooth;
   /* background-image: url('./assets/man-planet-river-5120x5120-15554.jpg'); */
+ 
+body {
+  background-color: black;
+  color: white;
+}
+
+button {
+  background-color: #555;
+  color: white;
+}
+body {
+  background-color: white;
+  color: black;
+}
+
+button {
+  background-color: #1e2e1f;
+  color: white;
 }
 #checkbox {
     display: none;
