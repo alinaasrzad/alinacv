@@ -2,7 +2,7 @@ body {
     background-color: black;
     color: white;
   }
-  button {
+  button .modeToggle {
     background-color: #555;
     color: white;
 }  
