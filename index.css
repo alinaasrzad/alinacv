@@ -95,6 +95,9 @@ filter: none;
   box-shadow: 20px 20px 60px #bebebe,
                 -20px -20px 60px #ffffff;
  }
+ .iconhtml{
+margin:15px;
+ }
   .card::before, .card::after {
     position: absolute;
     display: flex;
