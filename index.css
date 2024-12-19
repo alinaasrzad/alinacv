@@ -86,7 +86,15 @@ filter: none;
     margin: 20px;
     width: 200px;
   }
-  
+  /* From Uiverse.io by Codewithvinay */ 
+.card2{
+  width: 190px;
+  height: 254px;
+  border-radius: 50px;
+  background: #e0e0e0;
+  box-shadow: 20px 20px 60px #bebebe,
+                -20px -20px 60px #ffffff;
+ }
   .card::before, .card::after {
     position: absolute;
     display: flex;
