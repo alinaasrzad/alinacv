@@ -187,7 +187,7 @@ margin:15px;
     }
   
     60% {
-      transform: scale(0.8);
+      transform: scale(1.8);
     }
   
     80% {
@@ -198,5 +198,24 @@ margin:15px;
       transform: scale(1);
     }
   }
+  .iconhtml:hover{
+    animation: ICON 0.5s linear;
+  }
+@keyframes ICON {
+  40% {
+    transform: scale(1.4);
+  }
 
+  60% {
+    transform: scale(1.8);
+  }
+
+  80% {
+    transform: scale(1.2);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
  
