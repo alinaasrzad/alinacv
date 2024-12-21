@@ -18,7 +18,7 @@ body{
     display: none;
   }
   div img{
-    width: 150px;
+   
     margin-top: -50px;
     
   }
@@ -98,6 +98,8 @@ filter: none;
  }
  .iconhtml{
 margin:15px;
+width: 20xp;
+height: 90px;
  }
   .card::before, .card::after {
     position: absolute;
