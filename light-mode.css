@@ -9,6 +9,15 @@ body {
   }
   
   button {
+    padding: 10px;
+    border-radius: 25px;
+    box-shadow: 10px;
     background-color: #1e2e1f;
-    color: white;
+    color: rgb(242, 235, 235);
+  }
+  button :hover{
+    padding: 10px;
+  }
+  .modeToggle{
+    
   }

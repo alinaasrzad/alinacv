@@ -12,6 +12,7 @@ body{
   
 }
 .icons{
+  margin-top: 40px;
   justify-content:center;
   display: flex;
 
@@ -126,14 +127,14 @@ height: 90px;
     content: "";
     left: 0;
     justify-content: flex-end;
-    background-color: #4d60b6;
+    background-color: #3d323b;
   }
   
   .card::after {
     content: "";
     right: 0;
     justify-content: flex-start;
-    background-color: #4453a6;
+    background-color: #3e2e40;
   }
   
   .card:hover {
