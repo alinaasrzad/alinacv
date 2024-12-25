@@ -12,7 +12,10 @@ body{
   
 }
 .icons{
+  justify-content:center;
   display: flex;
+
+
 }
 .container {
   width: 100%;
