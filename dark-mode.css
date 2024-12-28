@@ -15,6 +15,13 @@ body {
     background-color: rgb(238, 235, 235)afa;
     color: rgb(32, 21, 21);
 }  
+button {
+  padding: 10px;
+  border-radius: 25px;
+  box-shadow: 10px;
+  background-color: #bcbcbc;
+  color: rgb(19, 12, 12);
+}
 .switch{
     color: rgb(12, 11, 9);
     background: #ffffff;
