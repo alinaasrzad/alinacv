@@ -10,16 +10,27 @@ body {
     background-image: linear-gradient(0deg, transparent 24%, var(--color) 25%, var(--color) 26%, transparent 27%,transparent 74%, var(--color) 75%, var(--color) 76%, transparent 77%,transparent),
         linear-gradient(90deg, transparent 24%, var(--color) 25%, var(--color) 26%, transparent 27%,transparent 74%, var(--color) 75%, var(--color) 76%, transparent 77%,transparent);
     background-size: 55px 55px;
+   
+  }
+  body :hover{
+    background-image: linear-gradient(0deg, transparent 24%, var(--color) 25%, var(--color) 26%, transparent 27%,transparent 74%, var(--color) 75%, var(--color) 76%, transparent 77%,transparent),
+        linear-gradient( var(--color) 25%,);
+
+    animation: square 0.4s linear ;
+  }
+  @keyframes square {
+
   }
   button .modeToggle {
-    background-color: rgb(238, 235, 235)afa;
+    background-color: #b5f3ff;
     color: rgb(32, 21, 21);
 }  
 button {
+  font-weight: 700;
   padding: 10px;
   border-radius: 25px;
   box-shadow: 10px;
-  background-color: #bcbcbc;
+  background-color: #c8fdff;
   color: rgb(19, 12, 12);
 }
 .switch{
