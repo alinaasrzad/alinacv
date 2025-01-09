@@ -19,11 +19,14 @@ body{
 
 }
 .welcome{
-  display:grid;
-
+  display:flex;
+padding: 20px;
   justify-content: center;
   font-size:x-large;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.welcome  .h2:hover{
+padding-left:20px;
 }
 .container {
   width: 100%;
