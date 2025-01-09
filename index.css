@@ -27,7 +27,7 @@ body{
 .welcome h2 .i{
   position: relative;
   left: 0;
-  transition:  left ease-in 0.6s ;
+  transition:left ease-in 0.6s ;
 }
 
 
