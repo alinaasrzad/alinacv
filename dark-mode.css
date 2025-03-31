@@ -19,8 +19,9 @@ body {
 }  
 button {
   font-weight: 700;
-  padding: 10px;
-  border-radius: 25px;
+  padding: 1rem;
+  margin-top: -5rem;
+  border-radius: 15px;
   box-shadow: 10px;
   background-color: #c8fdff;
   color: rgb(19, 12, 12);
